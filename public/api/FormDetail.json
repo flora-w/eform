@@ -1,0 +1,36 @@
+{
+    "code": 1,
+    "data": {
+    
+        "FlowDetail":{
+                "SequenceID": "p01f001202000000",
+                "SerialID": "p01f001202000000184010604121",
+                "FormID": null,
+                "FormName": "p01f001",
+                "ApplyDateTime": "2020/2/25 下午 02:18:39",
+                "ApplyName": "黃文毅",
+                "StepName": "ADM簽核",
+                "ToBeSignedID": "<K16070438><K16070452>",
+                "ToBeSignedName": "毕一萍,孙燏勃"
+            },
+            "FormDetail": {
+                "FormID": null,
+                "SerialID": null,
+                "TravelTypeName": "離職/歸仁/轉調",
+                "Remark": "23232",
+                "OFileName": "测试.txt"
+            },
+      
+    
+        "signHistory": [
+            {
+                
+                "sSignStepName": "ADM簽核",
+                "sSignerName": "趙璐林",
+                "sSignDateTime": "2018/12/25 下午 07:47:49",
+                "sResultName": "同意",
+                "sComment": "OK"
+            }
+        ]
+    }
+  }

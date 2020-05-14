@@ -1,0 +1,2 @@
+export const FORMID_CLICK='FORMID_CLICK'; 
+export const SUBMIT_SUCCESS='SUBMIT_SUCCESS';

@@ -1,0 +1,102 @@
+.home_container {
+  height: 560px;
+  width: 1180px;
+  margin: 20px auto;
+  padding: 15px;
+  &::after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+  .home_main_left {
+    width: 80%;
+    height: 100%;
+    &::after {
+      display: block;
+      clear: both;
+      content: '';
+    }
+    &>div {
+      float: left;
+      width: 270px;
+      height: 160px;
+      margin: 10px;
+      padding: 5px;
+      img {
+        display: block;
+        height: 40%;
+        margin: 10px auto;
+      }
+      h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+      }
+      &>div {
+        color: #fff;
+        text-align: center;
+        & ul {
+          position: relative;
+            li {
+            position: relative;
+            display: inline-block;
+            height: 20px;
+            width: 60px;
+            text-align: center;
+            cursor: pointer;
+            &:nth-child(-n+2):after {
+              position: absolute;
+              top: 2px;
+              right: 0;
+              width: 1px;
+              height: 16px;
+              background: #fff;
+              content: '';
+            }
+            &:hover {
+              background: rgba(0, 0, 0, .5);
+            }
+          }
+          & .li_show_after,.li_show_before {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            width: 182px;
+            height: 200px;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, .3);
+            z-index: 10;
+          }
+          & .li_show_before {
+            top: -200px;
+          }
+        }
+      }
+    }
+  }
+  .home_main_right {
+    padding: 10px 0;
+    float: right;
+    .home_user_settings {
+      margin-top: 23px;
+      & div {
+        position: relative;
+        height: 60px;
+        line-height: 60px;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        color: #fff;
+        & i {
+          position: absolute;
+          top: 0;
+          left: 20px;
+          font-size: 26px;
+        }
+      }
+    }
+  }
+}

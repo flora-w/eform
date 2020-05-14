@@ -1,0 +1,40 @@
+{
+    "code":"1",
+    "data":{
+    "sign0":[
+        {
+          "SequenceId":"p01f001202000000",
+          "formName":"p01f001",
+          "FillDate":"2019-01-01",
+          "PreviousFillDate":"2018-09-12",
+          "Step":"进行中",
+          "ToBeSignName":"OnGoing"
+        },{
+            "SequenceId":"p01f001202000012",
+            "formName":"p01f001",
+            "FillDate":"2019-02-01",
+            "PreviousFillDate":"2018-04-12",
+            "Step":"进行中",
+            "ToBeSignName":"OnGoing"
+        }
+     ],
+     "sign1":[
+        {
+            "SequenceId":"p01f001202000000",
+            "formName":"p01f001",
+            "FillDate":"2019-01-01",
+            "PreviousFillDate":"2018-09-12",
+            "Step":"待签核",
+            "ToBeSignName":"tobesigned"
+          },{
+              "SequenceId":"p01f001202000012",
+              "formName":"p01f001",
+              "FillDate":"2019-02-01",
+              "PreviousFillDate":"2018-04-12",
+              "Step":"待签核",
+              "ToBeSignName":"tobesigned"
+          }
+     ]
+    }
+
+}

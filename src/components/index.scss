@@ -1,0 +1,121 @@
+.leftNav {
+  float: left;
+  height: 100%;
+  min-width: 260px;
+  padding: 0 5px;
+  margin-right: 20px;
+  background: #f2f2f2;
+  border: 2px solid #0D75B9;
+  border-radius: 8px;
+  &>div:first-child {
+    & h2 {
+      width: 100%;
+      height: 48px;
+      line-height: 48px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #3BB0F9;
+      text-align: center;
+    }
+    & ul {
+      display: flex;
+      padding-bottom: 4px;
+      border-bottom: 2px solid #3366CC;
+      &>li {
+        position: relative;
+        flex: 1 1 auto;
+        display: block;
+        text-align: center;
+        color: #3399FF;
+        cursor: pointer;
+        &:not(:last-child)::after {
+          position: absolute;
+          top: 4px;
+          right: 0;
+          display: block;
+          height: 16px;
+          width: 1px;
+          content: '';
+          background: #3300FF;
+        }
+      }
+    }
+  }
+  &>.leftNav_lists {
+    margin-top: 10px;
+    padding: 5px;
+    height: calc(100% - 146px);
+    border-radius: 3px;
+    overflow: hidden;
+    overflow-y: auto;
+    &>ul {
+      width: 100%;
+      & li {
+        position: relative;
+        height: 30px;
+        line-height: 30px;
+        padding-left: 40px;
+        cursor: pointer;
+        opacity: .7;
+        transition: all .3s linear;
+        &>i {
+          position: absolute;
+          top: 0;
+          right: 5%;
+        }        
+        &:hover {
+          &:before {
+            position: absolute;
+            left: 0;
+            top: 3px;
+            display: block;
+            content: '';
+            height: 80%;
+            width: 3px;
+            background: yellowgreen;
+          }
+          background: #0cf;
+          opacity: .9;
+        }
+      }
+      .li_actived {
+        background: #0cf;
+        opacity: 1;
+        &:before {
+          position: absolute;
+          left: 0;
+          top: 3px;
+          display: block;
+          content: '';
+          height: 80%;
+          width: 3px;
+          background: yellowgreen;
+        }
+      }
+    }
+    & .leftNav_lists_list {
+      margin-left: 20px;
+      & li {
+        height: 28px;
+        line-height: 28px;
+        width: 80%;
+        cursor: pointer;
+        text-align: center;
+        &:hover {
+          background: #0cf;
+        }
+      }
+    }
+  }
+}
+
+.form_contaienr {
+  width: auto;
+  min-width: 800px;
+  height: 100%;
+  border: 1px solid #0D75B9;
+  border-radius: 8px;
+  background: #fefefe;
+  overflow: hidden;
+  overflow-y: auto;
+}

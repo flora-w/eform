@@ -1,0 +1,47 @@
+{
+    "code":"1",
+    "data":[
+        {
+               "uniqueid":1,
+                "site":"wks",
+                "function":"sap",
+                "pic":"WKSSAPIT.WKS.Wistron",
+                "ext":"6664"   
+        },
+        {
+            "uniqueid":2,
+            "site":"wks",
+            "function":"ems",
+            "pic":"MEL160.WKS.Wistron",
+            "ext":"6664"      
+    },
+    {    
+        "uniqueid":3,
+        "site":"wks",
+        "function":"impc",
+        "pic":"Samsong Zhang",
+        "ext":"6664"
+},
+{        
+   "uniqueid":4,
+    "site":"wks",
+    "function":"ers",
+    "pic":"Edison Wu",
+    "ext":"6664"
+},
+{        
+    "uniqueid":5,
+    "site":"wks",
+    "function":"wms",
+    "pic":"WKSSAPIT.WKS.Wistron",
+    "ext":"6664"
+},
+{       
+    "uniqueid":6,
+    "site":"wks",
+    "function":"差旅系統",
+    "pic":"WKSSAPIT.WKS.Wistron",
+    "ext":"6664"
+}
+]
+}

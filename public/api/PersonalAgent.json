@@ -1,0 +1,15 @@
+{
+    "code":1,
+    "message":"",
+    "data":[{
+        "deptcode":"MEL100",
+        "BeAgentedDeptcode":"MEL100",
+        "BeAgented":"alice",
+        "startDate":"2020/01/01",   
+         "endDate":"2020/03/01"
+
+    }
+]
+
+
+}

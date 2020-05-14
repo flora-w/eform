@@ -1,0 +1,20 @@
+{
+    "code":1,
+    "message":"",
+    "data":[{
+        "deptcode":"p00",
+        "agent":"ada",
+        "startDate":"2020/01/01",
+        "endDate":"2020/03/01",
+        "condition":"进行中"
+
+    },{
+        "deptcode":"p00",
+        "agent":"ada",
+        "startDate":"2020/01/01",
+        "endDate":"2020/03/01",
+        "condition":"进行中"
+ 
+    }
+]
+}
